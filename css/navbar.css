@@ -1,13 +1,13 @@
-nav {
+#navItem a{
+    padding:2em;
+}
+#navItem a.current {
+    color: white;
+}
+#navItem {
     position: absolute;
-    right: 2em;
+    right: 0.2em;
     top: 3em;
-}
-
-.nav_Item a.current {
-    color: chocolate;
-}
-.navItem {
     color: #252217;
     background-color: rgb(211, 109, 13);
     padding: 1.3em;
@@ -19,6 +19,6 @@ nav {
 }
 
 
-a:link{
+#navItem a:link{
     color:yellow;
 }
