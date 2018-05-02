@@ -36,6 +36,18 @@ article h2{
     padding: 10px;
     background-color: yellow;
 }
+img {
+    border-top: rgba(24, 125, 207, 0.562) 3px groove;
+    background-color: yellow;
+    padding: 2px;
+   
+    
+}
+figure img{
+    border-top: rgba(24, 125, 207, 0.562) 3px groove;
+    background-color: chocolate;
+    position: relative;
+}
 
 footer {
     margin: 5px;

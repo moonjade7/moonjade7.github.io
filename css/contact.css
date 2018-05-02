@@ -32,15 +32,6 @@ body h1{
     padding-right: 2em;
 }
 
-#map {
-    border: darkslateblue 3px groove;
-    border-radius: 18px;
-    padding: 3px;
-    margin-top: 7em;
-    float: right;
-    position: relative;
-}
-
 section {
     float: left;
     margin-top: 1em;
