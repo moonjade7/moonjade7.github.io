@@ -1,0 +1,44 @@
+
+body h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 100%;
+}
+#GandB {
+    margin-left: 25px;
+    margin-top: 8px;
+}
+#menuPlanner,span {
+    float: right;
+    margin: 0 10px 0 20px;
+    
+}
+
+#MainArticle {
+    border: chocolate 15px ridge;
+    margin: 15px 15px 0px 15px;
+    margin-left: 15px; 
+    padding: 10px;
+    background-color: yellow;
+}
+#map {
+    border: darkslateblue 3px groove;
+    border-radius: 18px;
+    padding: 1em 0em 5em 10em;
+    margin-top: 7em;
+    float: right;
+    position: relative;
+}
+
+footer {
+    margin: 5px;
+    color: white;
+}
+
+footer p{
+    color: black
+}
+
+footer address{
+    color: black
+}
