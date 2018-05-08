@@ -19,18 +19,13 @@ body h1{
     margin: 15px 15px 0px 15px;
     margin-left: 15px; 
     padding: 10px;
-    background-color: yellow;
+    background-color: darkorange;
 }
 #commentForm {
     width: 25%;
     padding-left: 4em;
 }
 
-#commentForm2 {
-    width: 25%;
-    padding-left: 4em;
-    float:right;
-}
 
 #contactInfo {
     width: 20%;
@@ -112,16 +107,3 @@ span {
 }
 
 
-footer {
-    margin: 5px;
-    color: white;
-}
-
-footer p{
-    color: black;
-}
-
-footer address{
-    color: black;
-    float: bottom;
-}

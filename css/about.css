@@ -19,18 +19,6 @@ body h1{
     margin: 15px 15px 0px 15px;
     margin-left: 15px; 
     padding: 10px;
-    background-color: yellow;
+    background-color: darkorange;
 }
 
-footer {
-    margin: 5px;
-    color: white;
-}
-
-footer p{
-    color: black
-}
-
-footer address{
-    color: black
-}
