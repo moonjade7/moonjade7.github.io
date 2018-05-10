@@ -19,9 +19,9 @@
     </head>
     <body>
     <header>
+        <a href="../index.html"><img src="../NEWLOGO.png" alt="Logo" width="200" id="GandB/></a>
         <img src="../NEWLOGO.png" alt="Logo" width="200" id="GandB"/> 
          <nav id = "navItem">
-         <a href="../index.html">Home</a>
          <a href="../html/contact.html" class="current">Contact</a>
          <a href="../html/menu.html">Menu</a>
          <a href="../html/location.html">Location</a>
@@ -34,24 +34,33 @@
             <![endif]-->
     
             <!-- Add your site or application content here -->
+            <figure>
                 
+                <a href="https://www.facebook.com/"><img src="../img/facebook2.png" alt="facebook" width="30"/></a>
+                <a href="https://www.instagram.com/?hl=en"><img src="../img/instagram-1581266_1920.jpg" alt="instagram-1581266_1920" width="30"/></a>
+                <a href="https://plus.google.com/"><img src="../img/google.jpg" alt="Google+" width="30"/></a>
+                <a href="https://twitter.com/?lang=en"><img src="../img/twitter.jpg" alt="twitter" width="30"/></a>
+            </figure>
                 <section id="commentForm">
                    <h2> If you want to get in contact with us</h2>
-                        <form action="#" method="get" name="comment_form" id="comment_form">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email" autofocus required>
-                            <br>
-                            <label for="firstName">First Name</label>
-                            <input type="text" name="firstName" id="firstName" required>
-                            <br>
-                            <label for="lastName">Last Name</label>
-                            <input type="text" name="lastName" id="lastName" required>
-                            <br>
-                            <textarea name="comments" placeholder="Please leave your comments here."></textarea>
-                            <input type="submit" name="submit" id="button" value="Send Comments">
                         
+                            <form action="https://formspree.io/smounts1@stu.parkland.edu"
+                            method="POST">
+                         <label for="firstName">First Name</label>
+                         <input type="text" name="firstName" id="firstName" required>
+                         <br>
+                         <label for="lastName">Last Name</label>
+                         <input type="text" name="lastName" id="lastName" required>
+                         <br>
+                          <label for="email">Email</label>
+                          <input type="email" name="_replyto" id="email" autofocus required>
+                          <br>
+                          <textarea name="comments" placeholder="Please leave your comments here."></textarea>
+                          <br>
+                          <input type="submit" value="Send">
                         </form>
                     </section>
+
                     
                     <section id="contactInfo">
                     
@@ -63,8 +72,10 @@
                     </pre>
                     
                     </section>
-                
+    
     </section>
+
+    
             <script src="js/vendor/modernizr-3.5.0.min.js"></script>
             <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
             <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>

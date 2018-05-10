@@ -1,13 +1,13 @@
 #navItem a{
-    padding:2em;
+    padding:1em;
 }
 #navItem a.current {
     color: white;
 }
 #navItem {
     position: absolute;
-    right: 0.2em;
-    top: 3em;
+    right: 8em;
+    top: 2em;
     color: #252217;
     background-color: rgb(211, 109, 13);
     padding: 1.3em;
