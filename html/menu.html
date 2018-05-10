@@ -3,24 +3,25 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Menu</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" href="../img/favicon.ico">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/navbar.css">
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/menu.css">
         <link rel="stylesheet" href="../css/background.css">
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="http://malsup.github.com/jquery.cycle2.js"></script>
         
     </head>
     <body>
     <header>
-            <a href="../index.html"><img src="../NEWLOGO.png" alt="Logo" width="200" id="GandB/></a>
-            <img src="../NEWLOGO.png" alt="Logo" width="200" id="GandB"/> 
+            <a href="../index.html"><img src="../NEWLOGO.png" alt="Logo" width="200" id="GandB"/></a>
              <nav id = "navItem">
              <a href="../html/contact.html">Contact</a>
              <a href="../html/menu.html" class="current">Menu</a>
@@ -35,7 +36,7 @@
     
             <!-- Add your site or application content here -->
     
-              <h1><p>Menu</p></h1>
+              <h1> Menu </h1>
               <table>
 					<thead>
 						<tr>
@@ -62,9 +63,9 @@
 							<td>French Cruller</td>
 							<td class="right">$2</td>
 						</tr>
-					</tfoot>
+					
                 </table>
-                      <h2><p>  Top sellers: </p></h2>
+                      <h2>  Top sellers: </h2>
                         <ol>Pistachio Pinwheels</ol>
                         
                         <ol> Boston Cream delights</ol>
@@ -73,16 +74,23 @@
                         
                         <ol> Marshmallow Mayhems</ol>
                         
-                        <ol>   French twists</ol>
+                        <ol> French twists</ol>
                         
-                        <ol>  Bulls Horns</ol>
-        <figure>
-                            <img src="../img/bullsHorn.jpg" alt="bullsHorn" width="200"/>
-                            <img src="../img/Doughnuts.JPG" alt="Donut" width="200"/>
-                            <img src="../img/coffee_and_chokolate (2).JPG" alt="coffee" width="200"/>
-                            <img src="../img/file7001293943757.jpg" alt="Donuts" width="200"/>
-                            <img src="../img/pinwheels.jpg" alt="Pinwheels" width="200"/>
-        </figure>
+                        <ol> Bulls Horns</ol>
+                        
+                        <div class="cycle-slideshow"
+                        data-cycle-fx="scrollHorz"
+                        data-cycle-timeout="3000"
+                        data-cycle-caption="#adv-custom-caption"
+                        data-cycle-caption-template="Slide {{slideNum}}: {{cycleTitle}}" >
+                        <img src="../img/bullsHorn.jpg" alt="" width = "500" data-cycle-title="bullsHorn">
+                        <img src="../img/Doughnuts.JPG" alt="" width = "500" data-cycle-title="donuts">
+                        <img src="../img/coffee_and_chokolate2.JPG" alt="" width = "500" data-cycle-title="coffee_and_chokolate2">
+                        <img src="../img/file7001293943757.jpg" alt="" width = "500" data-cycle-title="Donut">
+                        <img src="../img/pinwheels.jpg" alt="" width = "500" data-cycle-title="pinwheels>
+                        
+                        <div id="adv-custom-caption"></div>
+    
         <h1> What did one donut say to the other? I donut care. </h1>
         </article>
        

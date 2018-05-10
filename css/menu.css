@@ -47,3 +47,7 @@ figure img{
     background-color: chocolate;
     position: relative;
 }
+
+#adv-custom-caption {
+    padding-top: 5px;
+}
