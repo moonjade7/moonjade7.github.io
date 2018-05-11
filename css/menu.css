@@ -36,17 +36,6 @@ article h2{
     padding: 10px;
     background-color: darkorange;
 }
-img {
-    border-top: rgba(24, 125, 207, 0.562) 3px groove;
-    padding: 2px;
-   
-    
-}
-figure img{
-    border-top: rgba(24, 125, 207, 0.562) 3px groove;
-    background-color: chocolate;
-    position: relative;
-}
 
 #adv-custom-caption {
     padding-top: 5px;
