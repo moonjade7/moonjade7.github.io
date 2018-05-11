@@ -31,7 +31,7 @@ body h1{
     width: 30%;
     height: 50px;
     padding: 50px;
-    margin: 0em 10em 0em 0em;
+    margin-top: 8em;
     padding-left: 4em;
 }
 
@@ -63,7 +63,9 @@ section {
 section a{
     float: right;
 }
-
+section p i{
+    color: red;
+}
 iframe {
     border-radius: 18px;
 }

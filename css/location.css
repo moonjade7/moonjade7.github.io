@@ -26,12 +26,12 @@ body h2{
     padding: 10px;
     background-color: darkorange;
 }
+
 #map {
     border: darkslateblue 3px groove;
     border-radius: 18px;
-    position: absolute;
-    margin: 1em 1em 2em 0em;
-    float: left;
+    position: relative;
+    clear: both;
 }
 
 *{padding: 0;margin: 0;}
